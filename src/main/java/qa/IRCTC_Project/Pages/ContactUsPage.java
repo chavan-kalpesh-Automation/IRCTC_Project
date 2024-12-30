@@ -1,5 +1,7 @@
 package qa.IRCTC_Project.Pages;
 
-public class ContactUsPage {
+import qa.IRCTC_Project.Base.TestBase;
+
+public class ContactUsPage extends TestBase{
 
 }

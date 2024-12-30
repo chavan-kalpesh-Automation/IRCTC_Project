@@ -1,5 +1,7 @@
 package qa.IRCTC_Project.Pages;
 
-public class RegisterPage {
+import qa.IRCTC_Project.Base.TestBase;
+
+public class RegisterPage extends TestBase{
 
 }

@@ -37,15 +37,15 @@ public class TestBase {
 	}
 
 	protected static void initialisation() {
-		String browsername = prop.getProperty("browser");
+		String browsername = prop.getProperty("Browser");
 
-		if (browsername.equalsIgnoreCase("chrome")) {
+		if (browsername.equalsIgnoreCase("Chrome")) {
 			WebDriverManager.chromedriver().clearDriverCache().setup();
 //			WebDriverManager.chromedriver().setup();
 
 			driver = new ChromeDriver();
 
-		} else if (browsername.equals("firefox")) {
+		} else if (browsername.equals("Firefox")) {
 			WebDriverManager.firefoxdriver().clearDriverCache().setup();
 			driver = new FirefoxDriver();
 
@@ -53,7 +53,7 @@ public class TestBase {
 		driver.manage().window().maximize();
 		driver.manage().deleteAllCookies();
 
-		driver.get(prop.getProperty("url"));
+		driver.get(prop.getProperty("IRCTC_Url"));
 
 	}
 }

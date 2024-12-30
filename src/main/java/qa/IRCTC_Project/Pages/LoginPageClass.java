@@ -1,5 +1,7 @@
 package qa.IRCTC_Project.Pages;
 
-public class LoginPageClass {
+import qa.IRCTC_Project.Base.TestBase;
+
+public class LoginPageClass extends TestBase{
 
 }
